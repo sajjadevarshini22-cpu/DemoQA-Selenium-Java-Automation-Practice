@@ -83,3 +83,32 @@ WebElement readingLabel = driver.findElement(By.xpath("//label[text()='Reading']
 JavascriptExecutor js = (JavascriptExecutor) driver;
 js.executeScript("arguments[0].scrollIntoView({block: 'center'});", readingLabel);
 js.executeScript("arguments[0].click();", readingLabel);
+
+
+## Dropdowns and Date Picker Handling
+
+### Concepts Practiced
+- Handling static dropdowns using Selenium `Select` class
+- Using `selectByVisibleText()`
+- Handling dynamic dropdowns using click actions
+- Handling date picker in DemoQA Student Registration Form
+- Selecting month, year, and date
+- Using `JavascriptExecutor` for scrolling and clicking
+- Handling `ElementClickInterceptedException`
+- Using `WebDriverWait` and `ExpectedConditions`
+
+### Test Scenario Practiced
+Automated the DemoQA Student Registration Form by filling:
+- First Name
+- Last Name
+- Email
+- Gender
+- Mobile Number
+- Date of Birth
+- Hobbies
+- Address
+- State
+- City
+
+### Important Learning
+DemoQA State and City dropdowns are dynamic dropdowns, so Selenium `Select` class cannot be used. These dropdowns were handled using click actions, explicit wait, and JavaScript scroll.
