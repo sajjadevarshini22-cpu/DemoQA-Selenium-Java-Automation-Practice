@@ -112,3 +112,39 @@ Automated the DemoQA Student Registration Form by filling:
 
 ### Important Learning
 DemoQA State and City dropdowns are dynamic dropdowns, so Selenium `Select` class cannot be used. These dropdowns were handled using click actions, explicit wait, and JavaScript scroll.
+
+## Waits in Selenium
+
+### Concepts Practiced
+- Explicit Wait
+- WebDriverWait
+- ExpectedConditions
+- Waiting for element visibility
+- Waiting for element clickability
+- JavaScriptExecutor scroll
+- JavaScript click
+- Handling timing issues in Selenium
+
+### Application Used
+DemoQA Student Registration Form
+
+### Fields Automated
+- First Name
+- Last Name
+- Email
+- Gender
+- Mobile Number
+- Hobby
+- Current Address
+
+### Key Learning
+Selenium runs faster than web pages load, so waits are required to make scripts stable. I used WebDriverWait and ExpectedConditions to wait for elements before performing actions.
+
+### Issue Faced
+The script looked stuck near the mobile number field, but the actual issue was an incorrect JavaScriptExecutor syntax while scrolling to the Reading checkbox.
+
+### Fix Used
+Correct JavaScriptExecutor syntax:
+
+```java
+js.executeScript("arguments[0].scrollIntoView({block: 'center'});", readingLabel);
