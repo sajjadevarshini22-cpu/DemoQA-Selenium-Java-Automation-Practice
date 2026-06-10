@@ -148,3 +148,26 @@ Correct JavaScriptExecutor syntax:
 
 ```java
 js.executeScript("arguments[0].scrollIntoView({block: 'center'});", readingLabel);
+
+##Alerts, Frames, and Windows
+
+### Concepts Practiced
+- Simple alert
+- Confirmation alert
+- Prompt alert
+- Alert accept and dismiss
+- Alert text handling
+- Prompt alert input
+- Frame handling
+- Switching to iframe
+- Switching back to main page
+- Browser window handling
+- Window handles
+
+### Applications Used
+- DemoQA Alerts
+- DemoQA Frames
+- DemoQA Browser Windows
+
+### Key Learning
+Selenium cannot directly interact with alerts, iframes, or new browser windows. We must switch Selenium control using `switchTo()` before performing actions.
