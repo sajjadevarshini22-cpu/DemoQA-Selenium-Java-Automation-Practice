@@ -171,3 +171,35 @@ js.executeScript("arguments[0].scrollIntoView({block: 'center'});", readingLabel
 
 ### Key Learning
 Selenium cannot directly interact with alerts, iframes, or new browser windows. We must switch Selenium control using `switchTo()` before performing actions.
+
+
+## Actions Class in Selenium
+
+### Concepts Practiced
+- Actions class
+- Double click
+- Right click / context click
+- Dynamic click
+- Mouse hover
+- Drag and drop
+- Click and hold
+- Keyboard actions
+- Ctrl+A shortcut
+- Tab key handling
+
+### Applications Used
+- DemoQA Buttons
+- DemoQA Menu
+- DemoQA Droppable
+- DemoQA Text Box
+
+### Key Learning
+Actions class is used for advanced mouse and keyboard interactions in Selenium. It is useful for handling hover menus, right click, double click, drag and drop, and keyboard shortcuts.
+
+### Practice Files
+- DoubleClickPractice.java
+- RightClickPractice.java
+- DynamicClickPractice.java
+- MouseHoverPractice.java
+- DragAndDropPractice.java
+- KeyboardActionsPractice.java
