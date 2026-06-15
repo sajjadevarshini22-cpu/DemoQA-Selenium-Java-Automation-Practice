@@ -203,3 +203,27 @@ Actions class is used for advanced mouse and keyboard interactions in Selenium. 
 - MouseHoverPractice.java
 - DragAndDropPractice.java
 - KeyboardActionsPractice.java
+
+##JavaScriptExecutor and Screenshots
+
+### Concepts Practiced
+- JavaScriptExecutor
+- Scroll down and scroll up
+- Scroll to specific element
+- JavaScript click
+- Enter text using JavaScript
+- Get page title using JavaScript
+- TakesScreenshot interface
+- Screenshot capture
+- Screenshot utility method
+
+### Application Used
+DemoQA Student Registration Form
+
+### Key Learning
+JavaScriptExecutor is useful when normal Selenium actions do not work due to scrolling, hidden elements, or click interception. Screenshots are useful for debugging, bug reporting, and failed test evidence.
+
+### Practice Files
+- JavaScriptExecutorPractice.java
+- ScreenshotPractice.java
+- ScreenshotWithMethodPractice.java
