@@ -227,3 +227,30 @@ JavaScriptExecutor is useful when normal Selenium actions do not work due to scr
 - JavaScriptExecutorPractice.java
 - ScreenshotPractice.java
 - ScreenshotWithMethodPractice.java
+
+##File Upload, File Download, and Browser Navigation
+
+### Concepts Practiced
+- File upload using sendKeys
+- Upload using project file path
+- File download
+- File download verification using Java File class
+- Browser navigation commands
+- navigate().to()
+- navigate().back()
+- navigate().forward()
+- navigate().refresh()
+
+### Applications Used
+- DemoQA Student Registration Form
+- DemoQA Upload and Download
+- DemoQA Home Page
+
+### Key Learning
+File upload can be handled using sendKeys when the upload element is input type file. File download can be verified using Java File class. Browser navigation commands are useful for back, forward, and refresh actions.
+
+### Practice Files
+- FileUploadPractice.java
+- FileDownloadPractice.java
+- FileDownloadVerification.java
+- BrowserNavigationPractice.java
