@@ -280,3 +280,25 @@ TestNG helps organize Selenium scripts as real test cases. It provides annotatio
 - SeleniumTestNGPractice.java
 - DemoQATextBoxTestNG.java
 - DemoQATextBoxAssertionTest.java
+##Advanced TestNG
+
+### Concepts Practiced
+- TestNG groups
+- Smoke and regression groups
+- dependsOnMethods
+- DataProvider
+- Data-driven testing
+
+
+### Application Used
+SauceDemo Login Page
+
+### Key Learning
+Advanced TestNG helps organize and control automation test execution. Groups are useful for running selected tests, dependsOnMethods helps manage test dependency, DataProvider supports data-driven testing, and testng.xml controls suite execution.
+
+### Practice Files
+- TestNGGroupsPractice.java
+- DependsOnMethodsPractice.java
+- DataProviderPractice.java
+- SauceDemoLoginDataProviderTest.java
+- SauceDemoLoginAssertionDataProviderTest.java
