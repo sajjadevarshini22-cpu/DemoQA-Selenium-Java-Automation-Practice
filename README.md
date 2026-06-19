@@ -254,3 +254,29 @@ File upload can be handled using sendKeys when the upload element is input type 
 - FileDownloadPractice.java
 - FileDownloadVerification.java
 - BrowserNavigationPractice.java
+
+##TestNG Basics
+
+### Concepts Practiced
+- TestNG framework
+- @Test annotation
+- @BeforeMethod
+- @AfterMethod
+- Assertions
+- Assert.assertEquals()
+- Assert.assertTrue()
+- Test priority
+- Disabling test cases
+- Selenium with TestNG structure
+
+### Application Used
+DemoQA Text Box
+
+### Key Learning
+TestNG helps organize Selenium scripts as real test cases. It provides annotations, assertions, execution control, and reports. It is commonly used in Selenium Java automation frameworks.
+
+### Practice Files
+- FirstTestNGPractice.java
+- SeleniumTestNGPractice.java
+- DemoQATextBoxTestNG.java
+- DemoQATextBoxAssertionTest.java
