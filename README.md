@@ -197,12 +197,12 @@ Selenium cannot directly interact with alerts, iframes, or new browser windows. 
 Actions class is used for advanced mouse and keyboard interactions in Selenium. It is useful for handling hover menus, right click, double click, drag and drop, and keyboard shortcuts.
 
 ### Practice Files
-- DoubleClickPractice.java
-- RightClickPractice.java
-- DynamicClickPractice.java
-- MouseHoverPractice.java
-- DragAndDropPractice.java
-- KeyboardActionsPractice.java
+- action_class.DoubleClickPractice.java
+- action_class.RightClickPractice.java
+- action_class.DynamicClickPractice.java
+- action_class.MouseHoverPractice.java
+- action_class.DragAndDropPractice.java
+- action_class.KeyboardActionsPractice.java
 
 ##JavaScriptExecutor and Screenshots
 
@@ -224,9 +224,9 @@ DemoQA Student Registration Form
 JavaScriptExecutor is useful when normal Selenium actions do not work due to scrolling, hidden elements, or click interception. Screenshots are useful for debugging, bug reporting, and failed test evidence.
 
 ### Practice Files
-- JavaScriptExecutorPractice.java
-- ScreenshotPractice.java
-- ScreenshotWithMethodPractice.java
+- javascriptexecutor_screenshots.JavaScriptExecutorPractice.java
+- javascriptexecutor_screenshots.ScreenshotPractice.java
+- javascriptexecutor_screenshots.ScreenshotWithMethodPractice.java
 
 ##File Upload, File Download, and Browser Navigation
 
@@ -250,9 +250,9 @@ JavaScriptExecutor is useful when normal Selenium actions do not work due to scr
 File upload can be handled using sendKeys when the upload element is input type file. File download can be verified using Java File class. Browser navigation commands are useful for back, forward, and refresh actions.
 
 ### Practice Files
-- FileUploadPractice.java
-- FileDownloadPractice.java
-- FileDownloadVerification.java
+- upload_download_navigation.FileUploadPractice.java
+- upload_download_navigation.FileDownloadPractice.java
+- upload_download_navigation.FileDownloadVerification.java
 - BrowserNavigationPractice.java
 
 ##TestNG Basics
@@ -276,10 +276,10 @@ DemoQA Text Box
 TestNG helps organize Selenium scripts as real test cases. It provides annotations, assertions, execution control, and reports. It is commonly used in Selenium Java automation frameworks.
 
 ### Practice Files
-- FirstTestNGPractice.java
-- SeleniumTestNGPractice.java
-- DemoQATextBoxTestNG.java
-- DemoQATextBoxAssertionTest.java
+- testng_basics.FirstTestNGPractice.java
+- testng_basics.SeleniumTestNGPractice.java
+- testng_basics.DemoQATextBoxTestNG.java
+- testng_basics.DemoQATextBoxAssertionTest.java
 ##Advanced TestNG
 
 ### Concepts Practiced
@@ -297,8 +297,8 @@ SauceDemo Login Page
 Advanced TestNG helps organize and control automation test execution. Groups are useful for running selected tests, dependsOnMethods helps manage test dependency, DataProvider supports data-driven testing, and testng.xml controls suite execution.
 
 ### Practice Files
-- TestNGGroupsPractice.java
-- DependsOnMethodsPractice.java
-- DataProviderPractice.java
-- SauceDemoLoginDataProviderTest.java
-- SauceDemoLoginAssertionDataProviderTest.java
+- testng_advanced.TestNGGroupsPractice.java
+- testng_advanced.DependsOnMethodsPractice.java
+- testng_advanced.DataProviderPractice.java
+- testng_advanced.SauceDemoLoginDataProviderTest.java
+- testng_advanced.SauceDemoLoginAssertionDataProviderTest.java
