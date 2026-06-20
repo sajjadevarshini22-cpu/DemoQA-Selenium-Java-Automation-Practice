@@ -1,21 +1,27 @@
 package framework.tests;
+
 import framework.base.BaseTest;
 import framework.pages.InventoryPage;
 import framework.pages.LoginPage;
+import framework.utilities.ConfigReader;
 import framework.utilities.ScreenshotUtil;
 
 import java.io.IOException;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LoginTest extends BaseTest
-{
+public class LoginTest extends BaseTest {
+
     @Test
     public void validLoginTest() throws IOException {
 
         LoginPage loginPage = new LoginPage(driver);
 
-        loginPage.login("standard_user", "secret_sauce");
+        loginPage.login(
+                ConfigReader.getProperty("username"),
+                ConfigReader.getProperty("password")
+        );
 
         Assert.assertTrue(driver.getCurrentUrl().contains("inventory"));
 
@@ -23,12 +29,16 @@ public class LoginTest extends BaseTest
 
         System.out.println("Valid login test passed");
     }
+
     @Test
     public void invalidLoginTest() throws IOException {
 
         LoginPage loginPage = new LoginPage(driver);
 
-        loginPage.login("invalid_user", "wrong_password");
+        loginPage.login(
+                ConfigReader.getProperty("invalidUsername"),
+                ConfigReader.getProperty("invalidPassword")
+        );
 
         String actualError = loginPage.getErrorMessage();
 
@@ -38,12 +48,16 @@ public class LoginTest extends BaseTest
 
         System.out.println("Invalid login test passed");
     }
+
     @Test
     public void addProductToCartTest() throws IOException {
 
         LoginPage loginPage = new LoginPage(driver);
 
-        loginPage.login("standard_user", "secret_sauce");
+        loginPage.login(
+                ConfigReader.getProperty("username"),
+                ConfigReader.getProperty("password")
+        );
 
         InventoryPage inventoryPage = new InventoryPage(driver);
 
@@ -57,7 +71,6 @@ public class LoginTest extends BaseTest
 
         ScreenshotUtil.captureScreenshot(driver, "addProductToCartTest");
 
-        System.out.println("Add product to cart test passed");}
-
-
+        System.out.println("Add product to cart test passed");
+    }
 }

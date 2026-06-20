@@ -364,3 +364,25 @@ BaseTest avoids repeated browser setup code. Utility classes help reuse common l
 - LoginTest.java
 - ScreenshotUtil.java
 - WaitUtil.java
+## Config.properties and ConfigReader
+
+### Concepts Practiced
+- config.properties file
+- Java Properties class
+- FileInputStream
+- ConfigReader utility
+- Reading browser and URL from config
+- Removing hardcoded values
+- Using config data in BaseTest and test classes
+
+### Application Used
+SauceDemo
+
+### Key Learning
+config.properties helps store common framework values like browser, URL, username, and password. ConfigReader reads these values and makes the framework easier to maintain.
+
+### Practice Files
+- config.properties
+- ConfigReader.java
+- BaseTest.java
+- LoginTest.java
