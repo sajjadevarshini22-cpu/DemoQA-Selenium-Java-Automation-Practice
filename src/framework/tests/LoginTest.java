@@ -2,6 +2,7 @@ package framework.tests;
 
 import framework.base.BaseTest;
 import framework.pages.InventoryPage;
+import framework.listeners.TestListener;
 import framework.pages.LoginPage;
 import framework.utilities.ConfigReader;
 import framework.utilities.ScreenshotUtil;
@@ -9,8 +10,10 @@ import framework.utilities.ScreenshotUtil;
 import java.io.IOException;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners(TestListener.class)
 public class LoginTest extends BaseTest {
 
     @Test
@@ -47,6 +50,15 @@ public class LoginTest extends BaseTest {
         ScreenshotUtil.captureScreenshot(driver, "invalidLoginTest");
 
         System.out.println("Invalid login test passed");
+    }
+    @Test
+    public void invalidLoginFailureScreenshotTest() {
+
+        LoginPage loginPage = new LoginPage(driver);
+
+        loginPage.login("wrong_user", "wrong_password");
+
+        Assert.assertTrue(driver.getCurrentUrl().contains("inventory"));
     }
 
     @Test

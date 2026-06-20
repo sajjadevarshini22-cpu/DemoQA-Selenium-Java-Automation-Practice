@@ -407,3 +407,29 @@ Excel data-driven testing helps run the same test case with multiple test data s
 - LoginTestData.xlsx
 - ExcelUtil.java
 - SauceDemoExcelLoginTest.java
+
+## TestNG Listener and Screenshot on Failure
+
+### Concepts Practiced
+- TestNG Listener
+- ITestListener
+- onTestStart
+- onTestSuccess
+- onTestFailure
+- onTestSkipped
+- ITestResult
+- Automatic screenshot on failure
+- Listener configuration in testng.xml
+
+### Application Used
+SauceDemo
+
+### Key Learning
+TestNG Listener helps perform actions automatically during test execution. Using onTestFailure, screenshots can be captured automatically when a test fails, making the framework more professional and useful for debugging.
+
+### Practice Files
+- TestListener.java
+- ScreenshotUtil.java
+- BaseTest.java
+- LoginTest.java
+- testng.xml
