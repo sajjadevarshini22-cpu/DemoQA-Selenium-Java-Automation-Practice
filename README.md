@@ -386,3 +386,24 @@ config.properties helps store common framework values like browser, URL, usernam
 - ConfigReader.java
 - BaseTest.java
 - LoginTest.java
+
+## Excel Data-Driven Testing
+
+### Concepts Practiced
+- Data-driven testing
+- Apache POI
+- Reading Excel data
+- ExcelUtil utility class
+- TestNG DataProvider with Excel
+- Running same login test with multiple data sets
+
+### Application Used
+SauceDemo
+
+### Key Learning
+Excel data-driven testing helps run the same test case with multiple test data sets. Apache POI is used to read Excel files in Java, and TestNG DataProvider passes Excel data to test methods.
+
+### Practice Files
+- LoginTestData.xlsx
+- ExcelUtil.java
+- SauceDemoExcelLoginTest.java
