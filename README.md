@@ -325,3 +325,17 @@ Page Object Model improves readability, reusability, and maintainability of Sele
 - LoginPage.java
 - InventoryPage.java
 - LoginTest.java
+## Page Factory
+
+### Concepts Practiced
+- Page Factory
+- @FindBy
+- PageFactory.initElements()
+- Login Page Automation
+- TestNG Integration
+
+### Application Used
+SauceDemo
+
+### Key Learning
+Page Factory is an advanced implementation of POM that reduces code duplication and improves readability.
