@@ -339,3 +339,28 @@ SauceDemo
 
 ### Key Learning
 Page Factory is an advanced implementation of POM that reduces code duplication and improves readability.
+## BaseTest and Utility Framework Structure
+
+### Concepts Practiced
+- BaseTest class
+- Framework package structure
+- Utility classes
+- ScreenshotUtil
+- WaitUtil
+- Reusable setup and teardown
+- POM with BaseTest
+- TestNG with framework structure
+
+### Application Used
+SauceDemo
+
+### Key Learning
+BaseTest avoids repeated browser setup code. Utility classes help reuse common logic like screenshots and waits. Framework structure makes Selenium automation code clean, reusable, and maintainable.
+
+### Practice Files
+- BaseTest.java
+- LoginPage.java
+- InventoryPage.java
+- LoginTest.java
+- ScreenshotUtil.java
+- WaitUtil.java
