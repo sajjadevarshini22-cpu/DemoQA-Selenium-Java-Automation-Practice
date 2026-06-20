@@ -302,3 +302,26 @@ Advanced TestNG helps organize and control automation test execution. Groups are
 - testng_advanced.DataProviderPractice.java
 - testng_advanced.SauceDemoLoginDataProviderTest.java
 - testng_advanced.SauceDemoLoginAssertionDataProviderTest.java
+
+## Page Object Model Basics
+
+### Concepts Practiced
+- Page Object Model design pattern
+- Page class
+- Test class
+- Separating locators and test cases
+- Constructor usage in POM
+- Reusable page methods
+- TestNG with POM
+- Assertions in test class
+
+### Application Used
+SauceDemo
+
+### Key Learning
+Page Object Model improves readability, reusability, and maintainability of Selenium automation scripts. Locators and page actions are stored in page classes, while test cases and assertions are written in test classes.
+
+### Practice Files
+- LoginPage.java
+- InventoryPage.java
+- LoginTest.java
