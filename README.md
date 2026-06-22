@@ -433,3 +433,28 @@ TestNG Listener helps perform actions automatically during test execution. Using
 - BaseTest.java
 - LoginTest.java
 - testng.xml
+
+## Extent Reports Integration
+
+### Concepts Practiced
+- ExtentReports
+- ExtentSparkReporter
+- ExtentTest
+- Status logs
+- HTML report generation
+- TestNG listener integration
+- Screenshot attachment on failure
+- extent.flush()
+
+### Application Used
+SauceDemo
+
+### Key Learning
+Extent Reports generate professional HTML reports for Selenium automation execution. By integrating Extent Reports with TestNG Listener, test pass, fail, skip status and screenshots can be logged automatically.
+
+### Practice Files
+- ExtentManager.java
+- TestListener.java
+- ScreenshotUtil.java
+- LoginTest.java
+- testng.xml

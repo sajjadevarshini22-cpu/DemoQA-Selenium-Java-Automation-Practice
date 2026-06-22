@@ -10,9 +10,10 @@ import org.openqa.selenium.io.FileHandler;
 
 public class ScreenshotUtil {
 
-    public static String captureScreenshot(WebDriver driver, String fileName) {
+    public static String captureScreenshot(WebDriver driver, String testName) {
 
-        String screenshotPath = "screenshots/" + fileName + "_" + System.currentTimeMillis() + ".png";
+        String screenshotPath = System.getProperty("user.dir")
+                + "/screenshots/" + testName + "_" + System.currentTimeMillis() + ".png";
 
         try {
             TakesScreenshot ts = (TakesScreenshot) driver;
