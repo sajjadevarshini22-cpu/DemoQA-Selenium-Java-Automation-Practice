@@ -458,3 +458,21 @@ Extent Reports generate professional HTML reports for Selenium automation execut
 - ScreenshotUtil.java
 - LoginTest.java
 - testng.xml
+
+## Complete Framework Execution Flow
+
+### Concepts Practiced
+- testng.xml execution
+- BaseTest setup and tearDown
+- ConfigReader flow
+- Page Object Model flow
+- Test class flow
+- TestNG Listener flow
+- ScreenshotUtil flow
+- Extent Report flow
+
+### Key Learning
+The complete Selenium framework execution starts from testng.xml. TestNG runs the test class, BaseTest launches the browser, ConfigReader reads application data, page classes perform actions, test classes validate results, listener captures test status, screenshots are taken on failure, and Extent Report generates final HTML report.
+
+### Execution Flow
+testng.xml → TestNG → Listener → Test Class → BaseTest → ConfigReader → Browser → Page Class → Assertion → Listener → Screenshot/Report → Browser Close
