@@ -476,3 +476,25 @@ The complete Selenium framework execution starts from testng.xml. TestNG runs th
 
 ### Execution Flow
 testng.xml → TestNG → Listener → Test Class → BaseTest → ConfigReader → Browser → Page Class → Assertion → Listener → Screenshot/Report → Browser Close
+
+## Framework Debugging and Common Errors
+
+### Concepts Practiced
+- Selenium exception debugging
+- TestNG error fixing
+- Maven dependency issue fixing
+- Screenshot path issue fixing
+- Extent Report issue fixing
+- Framework debugging checklist
+
+### Key Learning
+Debugging is an important skill in automation testing. By reading error messages, checking line numbers, locators, waits, driver initialization, testng.xml, and Maven dependencies, we can fix Selenium framework issues step by step.
+
+### Common Errors
+- NoSuchElementException
+- ElementClickInterceptedException
+- TimeoutException
+- StaleElementReferenceException
+- NullPointerException
+- SessionNotCreatedException
+- No tests found
