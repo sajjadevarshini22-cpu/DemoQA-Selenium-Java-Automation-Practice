@@ -498,3 +498,27 @@ Debugging is an important skill in automation testing. By reading error messages
 - NullPointerException
 - SessionNotCreatedException
 - No tests found
+
+
+## Maven, pom.xml, Dependencies, Scopes, Lifecycle, Plugins
+
+### Concepts Practiced
+- Maven basics
+- pom.xml structure
+- Dependencies
+- Maven scopes
+- Maven lifecycle
+- Maven commands
+- Maven plugins
+- Surefire plugin
+- Compiler plugin
+
+### Key Learning
+Maven is used to manage Selenium framework dependencies and automate the build and test execution process. The pom.xml file contains dependencies like Selenium, TestNG, Apache POI, and Extent Reports. Maven plugins like Surefire help run TestNG XML files using Maven commands.
+
+### Commands Practiced
+- mvn clean
+- mvn compile
+- mvn test
+- mvn clean test
+- mvn clean install
